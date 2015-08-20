@@ -1,5 +1,6 @@
 require('rock_paper_scissors')
 require('rspec')
+require('mocha/api')
 
 describe('String#rock_paper_scissors') do
   it('returns true when the first player wins') do
